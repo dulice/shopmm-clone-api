@@ -1,0 +1,20 @@
+GET http://localhost:5000/products/category
+
+### products
+GET http://localhost:5000/products
+
+
+### filter same slug
+GET http://localhost:5000/products/categories/Sandals
+
+### search query
+GET http://localhost:5000/products/search?search=air
+
+### total sale
+GET http://localhost:5000/orders/summary
+
+### user
+GET http://localhost:5000/orders/user
+
+### message
+GET http://localhost:5000/messages/admin-message
